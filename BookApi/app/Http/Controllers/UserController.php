@@ -20,7 +20,7 @@ class UserController extends Controller
     {
     	try {
 		    return response( [
-			    'users' => UserResource::collection(User::all()),
+			    'users' => UserResource::collection(User::latest()->get()),
 			    'response' =>  true
 		    ], Response::HTTP_CREATED);
 
@@ -39,10 +39,10 @@ class UserController extends Controller
     {
         $request['user_id'] = Str::uuid();
 
-        $user = User::create($request);
+        User::create($request->all());
 
         return response([
-        	$user => UserResource::collection($user)
+        	'user' => User::latest()->first()
         ], Response::HTTP_CREATED);
     }
 
@@ -61,23 +61,31 @@ class UserController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  Request  $request
+     * @param  User $user
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(User $user, Request $request)
     {
-        //
+        $user->update($request->all());
+
+        return $user;
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
+	/**
+	 * Remove the specified resource from storage.
+	 *
+	 * @param  User $user
+	 * @return \Illuminate\Http\Response
+	 * @throws \Exception
+	 */
+    public function destroy(User $user)
     {
-        //
+        $user->delete();
+
+        return response([
+        	'message' => 'user delete successfully',
+        	'response' => true,
+        ], Response::HTTP_OK);
     }
 }
