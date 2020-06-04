@@ -2,21 +2,27 @@
 
 namespace Tests\Feature;
 
+use App\Http\Controllers\UserController;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+use App\User;
 
 class BookTest extends TestCase
 {
+	use RefreshDatabase;
     /**
-     * A basic feature test example.
      *
-     * @return void
+     * @test
      */
-    public function testExample()
+    public function can_create_an_account()
     {
-        $response = $this->get('/');
 
-        $response->assertStatus(200);
+    	$user1 = new UserController();
+
+	    $user = factory(User::class)->create();
+
+
+	    $this->assertEquals($user, $user1->index());
     }
 }

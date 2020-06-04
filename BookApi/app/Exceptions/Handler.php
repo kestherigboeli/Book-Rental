@@ -3,6 +3,8 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Http\Response;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Throwable;
 
 class Handler extends ExceptionHandler
@@ -50,6 +52,12 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
-        return parent::render($request, $exception);
+
+	    if ($exception instanceof NotFoundHttpException) {
+
+		    return response(['error'=> 'Invalid user id provided' . $exception->getMessage()], Response::HTTP_BAD_REQUEST);
+	    }
+
+	    return parent::render($request, $exception);
     }
 }

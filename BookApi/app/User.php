@@ -16,8 +16,13 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'last_name', 'email', 'password', 'user_id', 'status', 'role', 'first_name'
     ];
+
+	public function getRouteKeyName()
+	{
+		return 'user_id';
+	}
 
     /**
      * The attributes that should be hidden for arrays.
