@@ -18,6 +18,7 @@
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-e2e-nightwatch": "^4.4.0",
     "@vue/cli-plugin-eslint": "^4.4.0",

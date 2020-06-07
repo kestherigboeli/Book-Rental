@@ -8,7 +8,7 @@
 			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
 				<li class="nav-item active">
-					<router-link class="nav-link" to="/">Books <span class="sr-only">(current)</span></router-link>
+					<router-link class="nav-link" to="/">Home <span class="sr-only">(current)</span></router-link>
 				</li>
 			</ul>
 
@@ -36,8 +36,6 @@
 
 <script>
     export default {
-        name: "navbar",
-
 	    methods: {
 
             logout() {

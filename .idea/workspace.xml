@@ -2,45 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11597f5-edc3-4321-abbb-888cc567428a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/book_vue/src/components/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book_vue/src/components/navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_vue/src/assets/images/book.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_vue/src/assets/images/book1.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookApi/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/custom-assertions/elementCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/custom-commands/customExecute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/custom-commands/openHomepage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/custom-commands/openHomepageClass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/globals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/page-objects/homepage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/specs/test-with-pageobjects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/e2e/specs/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-vue/tests/unit/example.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,20 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_vue/src/App.vue">
+      <file leaf-file-name="dashboard.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="44">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#h6#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book_vue/src/components/navbar.vue">
+      <file leaf-file-name="login.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book_vue/src/components/login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="275">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -76,26 +55,8 @@
       <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book_vue/src/views/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-794">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_vue/src/components/login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="214">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -103,11 +64,20 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book_vue/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book_vue/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -159,16 +129,17 @@
         <option value="$PROJECT_DIR$/book-vue/.eslintrc.js" />
         <option value="$PROJECT_DIR$/book-vue/src/components/home.vue" />
         <option value="$PROJECT_DIR$/book_vue/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/main.js" />
         <option value="$PROJECT_DIR$/book_vue/src/views/dashboard.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/views/Home.vue" />
         <option value="$PROJECT_DIR$/book_vue/babel.config.js" />
         <option value="$PROJECT_DIR$/book_vue/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/book_vue/src/router/index.js" />
-        <option value="$PROJECT_DIR$/book_vue/src/App.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/login.vue" />
         <option value="$PROJECT_DIR$/book_vue/src/components/dashboard.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/main.js" />
         <option value="$PROJECT_DIR$/book_vue/src/components/navbar.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/App.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/router/index.js" />
+        <option value="$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/components/login.vue" />
       </list>
     </option>
   </component>
@@ -332,7 +303,30 @@
               <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="book_vue" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="book_vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="book_vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="book_vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Book" type="b2602c69:ProjectViewProjectNode" />
@@ -364,6 +358,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book_vue/src/assets/images" />
+      <recent name="$PROJECT_DIR$/book_vue/src/components/dashboard" />
       <recent name="$PROJECT_DIR$/book_vue/src/components" />
     </key>
   </component>
@@ -389,12 +385,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591211735006</updated>
-      <workItem from="1591211736379" duration="36199000" />
+      <workItem from="1591211736379" duration="44102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36199000" />
+    <option name="totallyTimeSpent" value="44102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="23" width="1226" height="806" extended-state="0" />
@@ -405,9 +401,9 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4047955" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4047955" />
       <window_info anchor="bottom" id="TypeScript" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32965517" />
@@ -430,43 +426,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="1482" column="20" selection-start-line="1482" selection-start-column="20" selection-end-line="1482" selection-end-column="20" />
-          <folding>
-            <element signature="e#3643#3843#0#PHP" expanded="true" />
-            <element signature="e#7868#8753#0#PHP" expanded="true" />
-            <element signature="e#39050#39143#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -775,16 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#98#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book_vue/babel.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -802,48 +755,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="2503" column="6" lean-forward="true" selection-start-line="2503" selection-start-column="6" selection-end-line="2503" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#98#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/components/navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book_vue/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/views/Home.vue">
+    <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="44">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#h6#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/book_vue/src/assets/images/book.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/assets/images/book1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/views/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="214">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_vue/src/components/login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-794">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/navbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="275">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
         </state>
       </provider>
     </entry>
