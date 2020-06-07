@@ -2,10 +2,14 @@
 
 namespace App\Exceptions;
 
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Http\Response;
+use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Throwable;
+use Tymon\JWTAuth\Exceptions\JWTException;
+use Tymon\JWTAuth\Exceptions\TokenInvalidException;
 
 class Handler extends ExceptionHandler
 {
@@ -56,6 +60,26 @@ class Handler extends ExceptionHandler
 	    if ($exception instanceof NotFoundHttpException) {
 
 		    return response(['error'=> 'Invalid user id provided' . $exception->getMessage()], Response::HTTP_BAD_REQUEST);
+	    }
+
+	    if ($exception instanceof MethodNotAllowedHttpException) {
+
+		    return response(['error'=> 'Request type is incorrect ' . $exception->getMessage()], Response::HTTP_BAD_REQUEST);
+	    }
+
+	    if ($exception instanceof ModelNotFoundException) {
+
+		    return response(['error'=> 'Invalid user id provided ' . $exception->getMessage() .' ' . $exception->getModel()], Response::HTTP_BAD_REQUEST);
+	    }
+
+	    if ($exception instanceof TokenInvalidException) {
+
+		    return response(['error'=> 'Invalid Token ' . $exception->getMessage()], Response::HTTP_BAD_REQUEST);
+	    }
+
+	    if ($exception instanceof JWTException) {
+
+		    return response(['error'=> 'Please provide a valid token, ' . $exception->getMessage()], Response::HTTP_BAD_REQUEST);
 	    }
 
 	    return parent::render($request, $exception);

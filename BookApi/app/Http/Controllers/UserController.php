@@ -8,9 +8,24 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
+use Mockery\Exception;
 
 class UserController extends Controller
 {
+	private $authController;
+
+	/**
+	 * Create a new AuthController instance.
+	 *
+	 * @param AuthController $authController
+	 */
+	public function __construct(AuthController $authController)
+	{
+		$this->authController = $authController;
+
+		$this->middleware('JWT', ['except' => ['store']]);
+	}
+
     /**
      * Display a listing of the resource.
      *
@@ -37,13 +52,24 @@ class UserController extends Controller
      */
     public function store(UserRequest $request)
     {
-        $request['user_id'] = Str::uuid();
+        try {
+	        $request['user_id'] = Str::uuid();
 
-        User::create($request->all());
+	        User::create($request->all());
 
-        return response([
-        	'user' => User::latest()->first()
-        ], Response::HTTP_CREATED);
+	        $this->authController->login($request);
+
+	        return response([
+		        'user' => User::latest()->first()
+	        ], Response::HTTP_CREATED);
+
+        } catch (Exception $exception) {
+
+	        return response([
+		        'message' => 'Unable to register user',
+		        'response' => false
+	        ], Response::HTTP_CREATED);
+        }
     }
 
 	/**
