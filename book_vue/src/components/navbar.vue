@@ -13,17 +13,19 @@
 			</ul>
 
 			<ul class="navbar-nav mt-2 mt-lg-0">
-				<li class="nav-item active">
+				<li class="nav-item active" v-if="!authenticated">
 					<router-link class="nav-link" to="/login">Login</router-link>
 				</li>
 
-				<li class="nav-item active">
-					<router-link class="nav-link" to="/login" @click="logout">Logout</router-link>
-				</li>
+				<template v-if="authenticated">
+					<li class="nav-item active">
+						<a class="nav-link sign-out" @click.prevent="signOut()">Logout</a>
+					</li>
 
-				<li class="nav-item active">
-					<router-link class="nav-link" to="/dashboard">Dashboard</router-link>
-				</li>
+					<li class="nav-item active">
+						<router-link class="nav-link" to="/dashboard" >Dashboard</router-link>
+					</li>
+				</template>
 			</ul>
 
 			<!--<form class="form-inline my-2 my-lg-0">-->
@@ -35,16 +37,38 @@
 </template>
 
 <script>
+	import { mapGetters, mapActions } from 'vuex'
+
     export default {
 	    methods: {
+            ...mapActions( {
+                signOutAction: 'auth/signOut'
+            }),
 
-            logout() {
-                alert('i am here')
+            signOut() {
+                this.signOutAction()
+	                .then( () => {
+	                    this.$router.replace({name: 'Home'})
+	                })
+	                .catch( () => {
+	                    localStorage.removeItem('token')
+	                })
             }
-	    }
+	    },
+
+	    computed: {
+		    ...mapGetters( {
+				authenticated: 'auth/authenticated',
+				user: 'auth/user'
+		    })
+	    },
+
     }
 </script>
 
 <style scoped>
 
+	.sign-out {
+		cursor: pointer;
+	}
 </style>

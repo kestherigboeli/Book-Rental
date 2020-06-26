@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\PasswordRequest;
+use App\Http\Requests\UpdateUserRequest;
 use App\Http\Requests\UserRequest;
 use App\Http\Resources\UserResource;
+use App\Rules\MatchOldPassword;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 use Mockery\Exception;
 
@@ -23,7 +28,7 @@ class UserController extends Controller
 	{
 		$this->authController = $authController;
 
-		$this->middleware('JWT', ['except' => ['store']]);
+		$this->middleware('JWT', ['except' => ['index', 'store']]);
 	}
 
     /**
@@ -60,7 +65,8 @@ class UserController extends Controller
 	        $this->authController->login($request);
 
 	        return response([
-		        'user' => User::latest()->first()
+		        'user' => new UserResource(User::latest()->first()),
+		        'password' => $request['password'],
 	        ], Response::HTTP_CREATED);
 
         } catch (Exception $exception) {
@@ -114,4 +120,51 @@ class UserController extends Controller
         	'response' => true,
         ], Response::HTTP_OK);
     }
+
+	/**
+	 * Show the application dashboard.
+	 *
+	 * @param  User $user_id
+	 * @param   PasswordRequest $passwordRequest
+	 *
+	 * @return \Illuminate\Contracts\Support\Renderable
+	 */
+	public function updatePassword(User $user_id, PasswordRequest $passwordRequest)
+	{
+
+		if (!Hash::check($passwordRequest->current_password, $user_id->password)) {
+			return response()->json( ['errors' => ['message' => 'Please enter your current password']], 422 );
+		}
+
+		$user_id->update(['password'=> $passwordRequest->new_password]);
+
+		return response([
+			'message' => 'Password changed successfully',
+			'response' => true,
+		], Response::HTTP_OK);
+	}
+
+	/**
+	 * Show the application dashboard.
+	 *
+	 * @param  User $user_id
+	 * @param   UpdateUserRequest $updateUserRequest
+	 *
+	 * @return \Illuminate\Contracts\Support\Renderable
+	 */
+	public function updateUser(User $user_id, UpdateUserRequest $updateUserRequest)
+	{
+		$user_id->update([
+			'first_name'=> $updateUserRequest->first_name,
+			'last_name' => $updateUserRequest->last_name,
+			'email'     => $updateUserRequest->email
+		]);
+
+		return response([
+			'message' => 'Details changed successfully',
+			'response' => true,
+		], Response::HTTP_OK);
+	}
+
+
 }

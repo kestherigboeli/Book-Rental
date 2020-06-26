@@ -79,7 +79,10 @@ class Handler extends ExceptionHandler
 
 	    if ($exception instanceof JWTException) {
 
-		    return response(['error'=> 'Please provide a valid token, ' . $exception->getMessage()], Response::HTTP_BAD_REQUEST);
+		    return response([
+		    	'error'=> 'Please provide a valid token, ' . $exception->getMessage(),
+		    	'response'=> false,
+		    ], Response::HTTP_BAD_REQUEST);
 	    }
 
 	    return parent::render($request, $exception);
