@@ -9,6 +9,8 @@ Route::delete('user/{user}', 'UserController@destroy');
 Route::patch('user/password/{user_id}', 'UserController@updatePassword');
 Route::post('user/update/{user_id}', 'UserController@updateUser');
 
+//Role
+
 
 Route::group([
 
