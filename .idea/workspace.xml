@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11597f5-edc3-4321-abbb-888cc567428a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/BookApi/app/Models/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookApi/app/Repositories/BookingRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookApi/app/Repositories/ScheduleRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookApi/app/Services/BookingService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookApi/config/enums.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Http/Controllers/User/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Http/Requests/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Http/Resources/UserResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Http/Resources/UserResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/Rules/MatchOldPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/database/factories/RoleFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/database/factories/RoleFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/database/seeds/RoleSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/database/seeds/RoleSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookApi/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookApi/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/BookApi/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/dashboard/adminDashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/dashboard/adminDashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/components/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/components/navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_vue/src/store/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/book_vue/src/store/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,114 +43,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/BookApi/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="adminEditUser.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/adminEditUser.vue">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookApi/app/Models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserResource.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Resources/UserResource.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="21">
+              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
               <folding>
-                <element signature="e#88#613#0#PHP" expanded="true" />
-                <element signature="e#273#611#0#PHP" expanded="true" />
+                <element signature="e#23#47#0#PHP" expanded="true" />
+                <element signature="e#535#594#0#PHP" expanded="true" />
+                <element signature="e#1550#1618#0#PHP" expanded="true" />
+                <element signature="e#1792#1891#0#PHP" expanded="true" />
+                <element signature="e#1989#2089#0#PHP" expanded="true" />
+                <element signature="e#2113#2198#0#PHP" expanded="true" />
+                <element signature="e#2204#2291#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php">
+      <file leaf-file-name="2020_06_27_114016_create_users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_06_27_114016_create_users_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="159" column="52" selection-start-line="159" selection-start-column="52" selection-end-line="159" selection-end-column="52" />
+            <state relative-caret-position="381">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
-                <element signature="e#40#78#0#PHP" expanded="true" />
-                <element signature="e#405#576#0#PHP" expanded="true" />
-                <element signature="e#669#948#0#PHP" expanded="true" />
-                <element signature="e#1105#1680#0#PHP" expanded="true" />
-                <element signature="e#1790#1877#0#PHP" expanded="true" />
-                <element signature="e#2055#2182#0#PHP" expanded="true" />
-                <element signature="e#2334#2543#0#PHP" expanded="true" />
-                <element signature="e#2790#3465#0#PHP" expanded="true" />
+                <element signature="e#7#52#0#PHP" expanded="true" />
+                <element signature="n#up#0;n#CreateUsersTable#0;n#!!top" expanded="true" />
+                <element signature="e#284#968#1#PHP" expanded="true" />
+                <element signature="n#down#0;n#CreateUsersTable#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BookApi/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="319">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding>
-                <element signature="e#340#544#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApi/app/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="e#64#99#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020_06_26_123847_create_roles_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_06_26_123847_create_roles_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleFactory.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BookApi/database/factories/RoleFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApi/database/seeds/RoleSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="n#run#0;n#RoleSeeder#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="e#7#38#0#PHP" expanded="true" />
+                <element signature="e#820#1023#2#PHP" expanded="true" />
+                <element signature="e#1962#2570#2#PHP" expanded="true" />
+                <element signature="e#2614#2887#2#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,14 +112,26 @@
       <find>Unauthenticated</find>
       <find>getListing</find>
       <find>List of current users</find>
-      <find>users</find>
       <find>errors</find>
       <find>AllUsers</find>
       <find>allUsers</find>
       <find>bycr</find>
       <find>Add nEw</find>
       <find>consol</find>
+      <find>login</find>
+      <find>unsh</find>
+      <find>Saved reports</find>
+      <find>Dashboard</find>
+      <find>Login</find>
+      <find>log</find>
+      <find>Home</find>
+      <find>Send Message</find>
+      <find>users</find>
+      <find>SET_USERS</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/book_vue</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,57 +139,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BookApi/.gitignore" />
-        <option value="$PROJECT_DIR$/BookApi/.env" />
-        <option value="$PROJECT_DIR$/BookApi/tests/Feature/BookTest.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Requests/UserRequest.php" />
-        <option value="$PROJECT_DIR$/BookApi/composer.json" />
-        <option value="$PROJECT_DIR$/BookApi/config/auth.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Requests/AuthRequest.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Middleware/JWT.php" />
-        <option value="$PROJECT_DIR$/book-vue/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/book-vue/src/router/index.js" />
-        <option value="$PROJECT_DIR$/book-vue/src/components/navbar.vue" />
-        <option value="$PROJECT_DIR$/book-vue/src/App.vue" />
-        <option value="$PROJECT_DIR$/book-vue/package.json" />
-        <option value="$PROJECT_DIR$/book-vue/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/book-vue/src/components/home.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/views/dashboard.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/dashboard.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/views/Home.vue" />
-        <option value="$PROJECT_DIR$/BookApi/resources/js/bootstrap.js" />
-        <option value="$PROJECT_DIR$/book_vue/babel.config.js" />
-        <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/book_vue/config.js" />
-        <option value="$PROJECT_DIR$/book_vue/src/config.js" />
-        <option value="$PROJECT_DIR$/book_vue/src/App.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/store/index.js" />
-        <option value="$PROJECT_DIR$/book_vue/.eslintrc.js" />
         <option value="$PROJECT_DIR$/book_vue/src/store/subscriber.js" />
         <option value="$PROJECT_DIR$/BookApi/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/BookApi/config/jwt.php" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/navbar.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue" />
         <option value="$PROJECT_DIR$/book_vue/src/router/index.js" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/login.vue" />
-        <option value="$PROJECT_DIR$/BookApi/app/User.php" />
         <option value="$PROJECT_DIR$/BookApi/app/Rules/MatchOldPassword.php" />
         <option value="$PROJECT_DIR$/book_vue/src/main.js" />
-        <option value="$PROJECT_DIR$/book_vue/src/components/dashboard/adminDashboard.vue" />
-        <option value="$PROJECT_DIR$/book_vue/src/store/auth.js" />
         <option value="$PROJECT_DIR$/BookApi/app/Http/Requests/PasswordRequest.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/BookApi/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Resources/UserResource.php" />
-        <option value="$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/BookApi/app/Http/Requests/UpdateUserRequest.php" />
         <option value="$PROJECT_DIR$/book_vue/src/components/dashboard/adminEditUser.vue" />
-        <option value="$PROJECT_DIR$/BookApi/routes/api.php" />
         <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_06_26_123847_create_roles_table.php" />
-        <option value="$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/seeds/RoleSeeder.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Role.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Resources/RoleResource.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/User.php" />
+        <option value="$PROJECT_DIR$/BookApi/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/book_vue/src/components/login.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/store/auth.js" />
         <option value="$PROJECT_DIR$/BookApi/database/factories/RoleFactory.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Resources/UserResource.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Controllers/User/UserController.php" />
+        <option value="$PROJECT_DIR$/book_vue/src/components/navbar.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/components/dashboard/adminDashboard.vue" />
+        <option value="$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue" />
+        <option value="$PROJECT_DIR$/BookApi/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Requests/UserRequest.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Repositories/BookingRepository.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Repositories/ScheduleRepository.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Services/BookingService.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Http/Controllers/BookingController.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/BookApi/config/app.php" />
+        <option value="$PROJECT_DIR$/BookApi/config/enums.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_135805_create_schedules_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_174238_create_facilities_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_175445_create_studios_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_194644_create_activities_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Models/Booking.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Models/Activity.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Models/Facility.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_201334_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Models/Schedule.php" />
+        <option value="$PROJECT_DIR$/BookApi/app/Models/Studio.php" />
+        <option value="$PROJECT_DIR$/BookApi/composer.json" />
+        <option value="$PROJECT_DIR$/BookApi/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_132632_create_bookings_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/database/migrations/2020_06_27_114016_create_users_table.php" />
+        <option value="$PROJECT_DIR$/BookApi/routes/api.php" />
       </list>
     </option>
   </component>
@@ -325,13 +307,29 @@
       <path value="$PROJECT_DIR$/BookApi/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/BookApi/vendor/tymon/jwt-auth" />
       <path value="$PROJECT_DIR$/BookApi/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/mratiebatie/laravel-repositories" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/laravel/cashier" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="23" />
-    <option name="width" value="1316" />
-    <option name="height" value="802" />
+    <option name="x" value="478" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1201" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -373,20 +371,34 @@
               <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="factories" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Book" type="b2602c69:ProjectViewProjectNode" />
@@ -394,13 +406,6 @@
               <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="BookApi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Book" type="b2602c69:ProjectViewProjectNode" />
@@ -424,10 +429,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BookApi/app/Models" />
+      <recent name="$PROJECT_DIR$/BookApi/app/Http/Controllers/User" />
+      <recent name="$PROJECT_DIR$/BookApi/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/book_vue/src" />
       <recent name="$PROJECT_DIR$/book_vue/src/assets/images" />
-      <recent name="$PROJECT_DIR$/book_vue/src/components/dashboard" />
-      <recent name="$PROJECT_DIR$/book_vue/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -452,41 +458,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591211735006</updated>
-      <workItem from="1591211736379" duration="137869000" />
+      <workItem from="1591211736379" duration="153554000" />
+      <workItem from="1594146046951" duration="1258000" />
+      <workItem from="1594577794780" duration="5171000" />
+      <workItem from="1595755178068" duration="1683000" />
+      <workItem from="1596047085107" duration="1184000" />
+      <workItem from="1596634187129" duration="6000" />
+      <workItem from="1596739612456" duration="2888000" />
+      <workItem from="1597586588014" duration="3577000" />
+      <workItem from="1599161207747" duration="1355000" />
+      <workItem from="1600083106798" duration="2286000" />
+      <workItem from="1602251949925" duration="18388000" />
+      <workItem from="1602522131139" duration="9592000" />
+      <workItem from="1603465817436" duration="2087000" />
+      <workItem from="1603491463898" duration="9825000" />
+      <workItem from="1603570290312" duration="2231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137869000" />
+    <option name="totallyTimeSpent" value="215085000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1316" height="802" extended-state="0" />
+    <frame x="478" y="-1057" width="1201" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29335633" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.40709218" />
-      <window_info anchor="bottom" id="TypeScript" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23233908" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32916668" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.28854167" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32965517" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../FullStack/node_modules/concat/index 2.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -497,422 +522,454 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book_vue/tests/e2e/page-objects/homepage.js">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/seeds/RoleSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/tests/e2e/custom-commands/customExecute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/resources/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        <state relative-caret-position="270">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/views/Home.vue">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/factories/RoleFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/node_modules/axios/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+        <state relative-caret-position="387">
+          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="2503" column="6" lean-forward="true" selection-start-line="2503" selection-start-column="6" selection-end-line="2503" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/.browserslistrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/node_modules/@types/node/globals.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="788" column="8" selection-start-line="788" selection-start-column="8" selection-end-line="788" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/AuthRequest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-components.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/node_modules/vue-router/types/router.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/store/subscriber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#21#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="74" column="58" lean-forward="true" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/config/jwt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/navbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="49" selection-start-line="49" selection-end-line="128" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#router-link#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#router-link#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_vue/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_vue/src/config.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/UpdateUserRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/PasswordRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/components/navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/AuthRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/store/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/components/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_vue/src/store/subscriber.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Support/Facades/Hash.php">
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Rules/MatchOldPassword.php" />
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/UserRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="420">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#40#76#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php">
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Repositories/BookingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="156">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#142#208#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Repositories/ScheduleRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="159" column="27" lean-forward="true" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+            <element signature="e#214#263#0#PHP" expanded="true" />
+            <element signature="e#290#348#1#PHP" expanded="true" />
+            <element signature="e#428#486#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/ScheduleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/config/enums.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Services/BookingService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/BookingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#40#80#0#PHP" expanded="true" />
+            <element signature="e#414#614#0#PHP" expanded="true" />
+            <element signature="e#1450#1992#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#329#41547#0#PHP" expanded="true" />
+            <element signature="e#12741#12895#0#PHP" expanded="true" />
+            <element signature="e#29347#29530#0#PHP" expanded="true" />
+            <element signature="e#37214#37758#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#1029#1625#1#PHP" expanded="true" />
+            <element signature="e#1226#1352#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Database/Schema/ForeignKeyDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_194644_create_activities_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="n#down#0;n#CreateActivitiesTable#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="e#30#43#0#PHP" expanded="true" />
+            <element signature="e#594#653#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_201334_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="n#up#0;n#CreateCategoriesTable#0;n#!!top" expanded="true" />
+            <element signature="e#321#420#1#PHP" expanded="true" />
+            <element signature="n#down#0;n#CreateCategoriesTable#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#43#0#PHP" expanded="true" />
+            <element signature="e#595#735#0#PHP" expanded="true" />
+            <element signature="e#1114#1190#0#PHP" expanded="true" />
+            <element signature="e#1313#1407#0#PHP" expanded="true" />
+            <element signature="e#1413#1510#0#PHP" expanded="true" />
+            <element signature="e#1516#1619#0#PHP" expanded="true" />
+            <element signature="e#1625#1785#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#71#110#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Facility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="e#30#72#0#PHP" expanded="true" />
+            <element signature="e#398#470#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Studio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/Booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#23#47#0#PHP" expanded="true" />
+            <element signature="e#255#323#0#PHP" expanded="true" />
+            <element signature="e#401#477#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookApi/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
-          <caret line="371" column="13" selection-start-line="371" selection-start-column="13" selection-end-line="371" selection-end-column="13" />
+          <caret line="264" column="13" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
           <folding>
-            <element signature="e#9819#9940#0#PHP" expanded="true" />
+            <element signature="e#7505#7773#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/symfony/var-dumper/Resources/functions/dump.php">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_174238_create_facilities_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#678#804#0#PHP" expanded="true" />
+            <element signature="n#down#0;n#CreateFacilitiesTable#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Rules/MatchOldPassword.php">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_175445_create_studios_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="e#29#69#0#PHP" expanded="true" />
-            <element signature="e#616#681#0#PHP" expanded="true" />
-            <element signature="e#773#858#0#PHP" expanded="true" />
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="n#up#0;n#CreateStudiosTable#0;n#!!top" expanded="true" />
+            <element signature="e#315#811#1#PHP" expanded="true" />
+            <element signature="n#down#0;n#CreateStudiosTable#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/router/index.js">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_135805_create_schedules_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#21#43#0" expanded="true" />
+            <element signature="n#CreateSchedulesTable#0;n#!!top" expanded="true" />
+            <element signature="n#up#0;n#CreateSchedulesTable#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/main.js">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_10_24_132632_create_bookings_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="165">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#232#251#0" expanded="true" />
+            <element signature="n#up#0;n#CreateBookingsTable#0;n#!!top" expanded="true" />
+            <element signature="e#317#416#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/store/auth.js">
+    <entry file="file://$PROJECT_DIR$/BookApi/app/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        <state relative-caret-position="21">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#23#47#0#PHP" expanded="true" />
+            <element signature="e#535#594#0#PHP" expanded="true" />
+            <element signature="e#1550#1618#0#PHP" expanded="true" />
+            <element signature="e#1792#1891#0#PHP" expanded="true" />
+            <element signature="e#1989#2089#0#PHP" expanded="true" />
+            <element signature="e#2113#2198#0#PHP" expanded="true" />
+            <element signature="e#2204#2291#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/login.vue">
+    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_06_27_114016_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="107" column="26" selection-start-line="101" selection-start-column="24" selection-end-line="107" selection-end-column="26" />
+        <state relative-caret-position="381">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/adminDashboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1267">
-          <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/PasswordRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding>
-            <element signature="e#238#299#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
-          <folding>
-            <element signature="e#366#454#0#PHP" expanded="true" />
-            <element signature="e#1549#1742#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/UserRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#431#681#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Requests/UpdateUserRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="e#240#301#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book_vue/src/components/dashboard/adminEditUser.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Resources/UserResource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#88#613#0#PHP" expanded="true" />
-            <element signature="e#273#611#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="159" column="52" selection-start-line="159" selection-start-column="52" selection-end-line="159" selection-end-column="52" />
-          <folding>
-            <element signature="e#40#78#0#PHP" expanded="true" />
-            <element signature="e#405#576#0#PHP" expanded="true" />
-            <element signature="e#669#948#0#PHP" expanded="true" />
-            <element signature="e#1105#1680#0#PHP" expanded="true" />
-            <element signature="e#1790#1877#0#PHP" expanded="true" />
-            <element signature="e#2055#2182#0#PHP" expanded="true" />
-            <element signature="e#2334#2543#0#PHP" expanded="true" />
-            <element signature="e#2790#3465#0#PHP" expanded="true" />
+            <element signature="e#7#52#0#PHP" expanded="true" />
+            <element signature="n#up#0;n#CreateUsersTable#0;n#!!top" expanded="true" />
+            <element signature="e#284#968#1#PHP" expanded="true" />
+            <element signature="n#down#0;n#CreateUsersTable#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BookApi/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="319">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding>
-            <element signature="e#340#544#1#PHP" expanded="true" />
+            <element signature="e#820#1023#2#PHP" expanded="true" />
+            <element signature="e#1962#2570#2#PHP" expanded="true" />
+            <element signature="e#2614#2887#2#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/app/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#64#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/database/seeds/RoleSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="n#run#0;n#RoleSeeder#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/database/migrations/2020_06_26_123847_create_roles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookApi/database/factories/RoleFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,6 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Str;
 
 class UserRequest extends FormRequest
 {
@@ -31,4 +30,21 @@ class UserRequest extends FormRequest
             'password' => 'required|min:3',
         ];
     }
+
+
+	/**
+	 * Get the error messages for the defined validation rules.
+	 *
+	 * @return array
+	 */
+	public function messages()
+	{
+		return [
+			'first_name.required' => 'First Name is required',
+			'last_name.required' => 'Last Name is required',
+			'password.confirmed' => 'Password does not match',
+			'email.required' => 'Email is required',
+			'email.unique' => 'Email is already taken',
+		];
+	}
 }

@@ -2,10 +2,13 @@
 
 namespace App;
 
+use App\Models\Activity;
+use App\Models\Schedule;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
+use Laravel\Cashier\Billable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
 class User extends Authenticatable implements JWTSubject
@@ -17,9 +20,8 @@ class User extends Authenticatable implements JWTSubject
      *
      * @var array
      */
-    protected $fillable = [
-        'last_name', 'email', 'password', 'user_id', 'status', 'role', 'first_name'
-    ];
+
+    protected $guarded =[];
 
 	public function getRouteKeyName()
 	{
@@ -44,6 +46,12 @@ class User extends Authenticatable implements JWTSubject
         'email_verified_at' => 'datetime',
     ];
 
+
+	/**
+	 * Hash password when storing in the database
+	 *
+	 * @var string
+	 */
 	public function setPasswordAttribute($value)
 	{
 		$this->attributes['password'] = Hash::make($value);
@@ -69,5 +77,44 @@ class User extends Authenticatable implements JWTSubject
 	public function getJWTCustomClaims()
 	{
 		return [];
+	}
+
+
+	/**
+	 * Get the Roles for the User.
+	 */
+	public function role()
+	{
+		return $this->belongsTo(Role::class);
+	}
+
+	/**
+	 * Get all of the video where watched is true.
+	 *
+	 * @return \Illuminate\Database\Eloquent\Relations\HasMany
+	 */
+	public function activities()
+	{
+		return $this->hasMany(Activity::class, 'user_id');
+	}
+
+	/**
+	 * Send the email verification notification.
+	 *
+	 * @return \Illuminate\Database\Eloquent\Relations\MorphMany
+	 */
+	public function activity()
+	{
+		return $this->morphMany(Activity::class, "activity");
+	}
+
+	public function bookings()
+	{
+		return $this->hasMany(Booking::class);
+	}
+
+	public function schedules()
+	{
+		return $this->hasMany(Schedule::class);
 	}
 }

@@ -6,6 +6,7 @@ use App\Http\Requests\PasswordRequest;
 use App\Http\Requests\UpdateUserRequest;
 use App\Http\Requests\UserRequest;
 use App\Http\Resources\UserResource;
+use App\Role;
 use App\Rules\MatchOldPassword;
 use App\User;
 use Illuminate\Http\Request;
@@ -40,7 +41,7 @@ class UserController extends Controller
     {
     	try {
 		    return response( [
-			    'users' => UserResource::collection(User::latest()->get()),
+			    'users' => UserResource::collection(User::with('role')->latest()->get()),
 			    'response' =>  true
 		    ], Response::HTTP_CREATED);
 
@@ -57,25 +58,49 @@ class UserController extends Controller
      */
     public function store(UserRequest $request)
     {
-        try {
-	        $request['user_id'] = Str::uuid();
+    	$request['user_id'] = Str::uuid();
+	    $user = User::create($request->all());
+//	    User::latest()->first()
 
-	        User::create($request->all());
-
-	        $this->authController->login($request);
-
-	        return response([
-		        'user' => new UserResource(User::latest()->first()),
-		        'password' => $request['password'],
+    	return response([
+		        'user' => new UserResource($user),
 	        ], Response::HTTP_CREATED);
 
-        } catch (Exception $exception) {
 
-	        return response([
-		        'message' => 'Unable to register user',
-		        'response' => false
-	        ], Response::HTTP_CREATED);
-        }
+//    	$user_role = Role::where('id', 1)->firstOrFail();
+//
+//
+//    	$user_role->create([
+//		    'first_name' => $request->first_name,
+//		    'last_name' => $request->last_name,
+//		    'email' => $request->email,
+//		    'password' => $request->password,
+////		        'role_id' => $user_role->id,
+//		    'user_id' => $request['user_id']
+//	    ]);
+
+//    	return $user_role;
+
+////    	try {
+//	        $request['user_id'] = Str::uuid();
+//
+//	        $user = User::create([
+//	        	'first_name' => $request->first_name,
+//	        	'last_name' => $request->last_name,
+//	        	'email' => $request->email,
+//	        	'password' => $request->password,
+////		        'role_id' => $user_role->id,
+//		        'user_id' => $request['user_id']
+//	        ]);
+//
+//		    $user->roles()->attach($request->role_id);
+//
+//	        $this->authController->login($request);
+//
+//	        return response([
+//		        'user' => new UserResource(User::latest()->first()),
+//	        ], Response::HTTP_CREATED);
+
     }
 
 	/**

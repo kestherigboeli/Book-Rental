@@ -87,10 +87,10 @@ export default {
               })
       },
 
-     async signUp({ dispatch, commit }, form) {
+     async signUp({ dispatch }, form) {
          await axios.post("/user/register", form);
 
-         dispatch('getAllUsers')
+         // dispatch('getAllUsers')
       },
 
       async getAllUsers( {commit}) {

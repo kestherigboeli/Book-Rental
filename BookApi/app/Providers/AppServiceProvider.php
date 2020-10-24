@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Repositories\BookingRepository;
+use App\Repositories\ScheduleRepository;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +15,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+	    $this->app->bind('BookingRepository', function () {
+		    return new BookingRepository();
+	    });
+	    $this->app->bind('ScheduleRepository', function () {
+		    return new ScheduleRepository();
+	    });
     }
 
     /**

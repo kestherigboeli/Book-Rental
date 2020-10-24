@@ -9,7 +9,7 @@
 				<tr>
 					<th>Full Name</th>
 					<th>Email</th>
-					<th>Status</th>
+					<!--<th>Status</th>-->
 					<th>Role</th>
 					<th>Edit    Delete</th>
 				</tr>
@@ -18,7 +18,7 @@
 				<tr v-for="(user, index) in users" :key="user.user_id">
 					<td>{{user.first_name}} {{user.last_name}}</td>
 					<td>{{user.email}}</td>
-					<td>{{user.status}}</td>
+					<!--<td>{{user.status}}</td>-->
 					<td>
 						<select class="form-control" id="sel1" v-on:change="UpdateRole($event)">
 							<option value="1">User</option>

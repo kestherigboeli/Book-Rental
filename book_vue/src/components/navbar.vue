@@ -51,7 +51,8 @@
 	                    this.$router.replace({name: 'Home'})
 	                })
 	                .catch( () => {
-	                    localStorage.removeItem('token')
+	                    localStorage.removeItem('token');
+		                window.location.href = "/"
 	                })
             }
 	    },

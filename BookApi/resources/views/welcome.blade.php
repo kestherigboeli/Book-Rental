@@ -96,5 +96,107 @@
                 </div>
             </div>
         </div>
+
+
+
+    {{--tunde--}}
+        <!-- <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                  <h3 class="panel-title">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      title
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse1"
+                      aria-expanded="true"
+                      aria-controls="collapse1"
+                    >What session do you run and what is your timetable?</a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse1"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  data-parent="#accordion"
+                  aria-labelledby="heading1"
+                >
+                  <div class="panel-body px-3 mb-4">
+                    <ul>
+                      <li>We run a number of different session types to cater for all needs, levels of fitness and training goals.</li>
+                      <li>Our main session is our bootcamp of the day (BOD) program which is our constantly varied fun and functional fitness program that includes strength, cardio and core training.</li>
+                      <li>We also offer our focused strength-training classes called Build & Burn as well as our high intensity cardio and core sessions called MetCon.</li>
+                      <li>Our session times vary according to which studio you visit, but each of our studios timetables can be viewed HERE</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                  <h3 class="panel-title">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      title
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse2"
+                      aria-expanded="true"
+                      aria-controls="collapse2"
+                    >What does my membership include?</a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse1"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  data-parent="#accordion"
+                  aria-labelledby="heading2"
+                >
+                  <div class="panel-body px-3 mb-4">
+                    <ul>
+                      <li>As a TFE member you will have unlimited access to all 50+ sessions that we offer each week. You can book as many session as you like but we recommend around 2-3 sessions per week for best results.</li>
+                      <li>Depending on your membership category you will also have access to TFE digital, our online fitness program</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                  <h3 class="panel-title">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      title
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#collapse3"
+                      aria-expanded="true"
+                      aria-controls="collapse3"
+                    >What is TFE digital?</a>
+                  </h3>
+                </div>
+                <div
+                  id="collapse1"
+                  class="panel-collapse collapse"
+                  role="tabpanel"
+                  data-parent="#accordion"
+                  aria-labelledby="heading3"
+                >
+                  <div class="panel-body px-3 mb-4">
+                    <ul>
+                      <li>TFE digital brings the studio to you at home. It's like having a studio at your finger tips! The TFE digital platform offers:</li>
+                    </ul>
+                    <ol>
+                      <li>Access to our vault of pre-recorded, home based, Bootcamps, MetCons and Build & Burn sessions (over 200 to choose from)</li>
+                      <li>Access to book on for virtual Zoom bootcamps, taken by one of our team of Coaches</li>
+                      <li>Hundreds of recipes, cook books and nutrition support to help ensure that your diet and nutrition is on line and helping you to achieve your goals.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>-->
     </body>
 </html>

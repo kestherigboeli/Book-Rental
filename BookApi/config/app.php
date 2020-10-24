@@ -226,6 +226,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+	    'BookingRepository' => App\Repositories\BookingRepository::class,
+	    'ScheduleRepository' => App\Repositories\ScheduleRepository::class
 
     ],
 

@@ -105,6 +105,22 @@
       <path value="$PROJECT_DIR$/BookApi/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/BookApi/vendor/tymon/jwt-auth" />
       <path value="$PROJECT_DIR$/BookApi/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/mratiebatie/laravel-repositories" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/BookApi/vendor/laravel/cashier" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

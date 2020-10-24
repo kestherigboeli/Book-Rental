@@ -56,7 +56,7 @@
 							<div class="form-group">
 								<div class="row">
 									<div class="col">
-										<button @click.prevent="register" class="col-6 btn btn-secondary btn-sm float-left">Register</button>
+										<button @click.prevent="register()" class="col-6 btn btn-secondary btn-sm float-left">Register</button>
 									</div>
 								</div>
 							</div>
@@ -96,9 +96,10 @@
 			    registerUser: 'auth/signUp'
 		    }),
 		    register(){
-		        this.registerUser(this.signUpForm)
+                console.log(this.signUpForm);
+
+                this.registerUser(this.signUpForm)
 			        .then( () => {
-                        // this.signUpForm = {}
                         this.$swal({
                             position: 'top-end',
                             icon: 'success',
